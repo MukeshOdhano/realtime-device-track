@@ -1,0 +1,22 @@
+@font-face {
+	font-family: General-Sans-Regular;
+	src: url("../fonts/GeneralSans-Regular.otf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: lightgray;
+	color: #222;
+	font-family: General-Sans-Regular, serif, sans-serif;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
